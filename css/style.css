@@ -1,0 +1,12 @@
+* {
+	margin: 10px;
+}
+body {
+	background-color: #eaeaea;
+	font-family:  sans-serif;
+}
+
+img {
+    outline: 1px solid lightgrey;
+    outline-offset: 5px;
+}
