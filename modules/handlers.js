@@ -25,11 +25,6 @@ exports.upload = function newImg(request, response) {
         if (err) throw err;
         response.writeHead(200, {"Content-Type": "text/html; charset=utf-8"});
         response.write(html);
-        //response.write("<html><head><link rel='stylesheet' type='text/css' href='css/style.css'></head></body>");
-        //response.write("<h2>Received image:</h2>");
-        //response.write("<img src='/show' /><br/><br/>");
-        //response.write("<a href='/'><< powrót do strony głównej</a>");
-        //response.write("</body></html>");
         response.end();
         });
     });
